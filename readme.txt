@@ -1,6 +1,6 @@
-=== Plugin Name ===
+=== WIKINDX macro plug-in for WordPress ===
 Contributors: dlyongemallo
-Tags: WIKINDX
+Tags: WIKINDX, bibliography, bibliographical
 Requires at least: 2.7.x
 Tested up to: 2.8.4
 Stable tag: 1.0
