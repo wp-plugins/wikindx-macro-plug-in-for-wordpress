@@ -7,6 +7,8 @@ Stable tag: 1.0
 
 Adds a macro to WordPress to insert bibliography information from the WIKINDX bibliography management system.
 
+The plug-in will probably work for versions lower than 2.7.x, but I haven't tested it for those versions.
+
 == Description ==
 
 This plug-in adds a macro that can be used to insert bibliography information from the [WIKINDX](http://wikindx.sourceforge.net/) bibliography management system into a WordPress post.  
