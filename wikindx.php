@@ -3,7 +3,7 @@
 Plugin Name: WIKINDX macro plug-in for WordPress
 Plugin URL: http://stargrads.net/blogs/davinci/2009/09/wikindx-macro-plug-in-for-wordpress
 Description: Adds a macro to WordPress to insert bibliography information from Wikindx.
-Version: 1.0
+Version: 1.0-$Rev$
 Author: D. L. Yonge-Mallo
 Author URI: http://stargrads.net/blogs/davinci/
 
@@ -24,6 +24,13 @@ with this program (in a file named COPYING).  If not, see
 <http://www.gnu.org/licenses/>.
 
 */
+
+if (!CUSTOM_TAGS) {
+    /* This is a kses hack, so that the wikindx tag is not stripped. */
+	$allowedposttags['wikindx'] = array(
+		'resource' => array()
+	);
+}
 
 function parse_wikindx($content) {
     $WikindxPath="http://path.to/wikindx/";
