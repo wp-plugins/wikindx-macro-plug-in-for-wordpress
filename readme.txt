@@ -17,7 +17,6 @@ This plug-in adds a macro that can be used to insert bibliography information fr
 
 1. Upload `wikindx.php` to the `/wp-content/plugins` directory (or the `/wp-content/mu-plugins` directory).
 1. You may have to activate the plug-in through the 'Plugins' menu in WordPress.
-1. You may have to use a so-called 'kses hack' so that the `wikindx` tag doesn't get stripped.
 
 == Screenshots ==
 
