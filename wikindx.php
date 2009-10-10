@@ -27,9 +27,9 @@ with this program (in a file named COPYING).  If not, see
 
 if (!CUSTOM_TAGS) {
     /* This is a kses hack, so that the wikindx tag is not stripped. */
-	$allowedposttags['wikindx'] = array(
-		'resource' => array()
-	);
+    $allowedposttags['wikindx'] = array(
+        'resource' => array()
+    );
 }
 
 function parse_wikindx($content) {
