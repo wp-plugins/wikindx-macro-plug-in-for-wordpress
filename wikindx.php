@@ -3,7 +3,7 @@
 Plugin Name: WIKINDX macro plug-in for WordPress
 Plugin URL: http://stargrads.net/blogs/davinci/2009/09/wikindx-macro-plug-in-for-wordpress
 Description: Adds a macro to WordPress to insert bibliography information from Wikindx.
-Version: 1.0-$Rev$
+Version: 1.01
 Author: D. L. Yonge-Mallo
 Author URI: http://stargrads.net/blogs/davinci/
 
